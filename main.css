@@ -56,7 +56,8 @@ body .lastMessage{
     position: absolute;
     text-align: center;
     padding: 1px;
-    background-color: red;
+    background-color: rgb(255, 133, 133);
+    color: brown;
     left: 1%;
     right: 1%;
     top: 40%;
