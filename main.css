@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(162, 202, 236);
+}
+
+#box{
+    background-color: rgb(191, 217, 240);
+    padding: 200px 400px 200px 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+    border-radius: 1cm;
+}
+
+body div form #message{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    height: 35px;
+    margin-left: -250px;
+}
+
+body div form #subbmitButton{
+    position: absolute;
+    padding: 12px 32px;
+    top: 35%;
+    margin-left: -64px;
+}
+
+body h1{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left:1%;
+    right:1%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 28px;
+}
+
+body .lastMessage{
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    left:1%;
+    right:1%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.empty {
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 1px;
+    background-color: red;
+    left: 1%;
+    right: 1%;
+    top: 40%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.visible{
+    display: block;
+}
